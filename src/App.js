@@ -23,7 +23,7 @@ function App() {
           Display Full Name
         </h1>
         
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form onSubmit={handleSubmit} className="space-y-6" name="nameForm" aria-label="Name submission form">
           <div>
             <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
               First Name
